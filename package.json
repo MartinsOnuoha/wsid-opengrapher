@@ -1,0 +1,17 @@
+{
+  "name": "wsid-opengrapher",
+  "version": "1.0.0",
+  "description": "og scrapper for whatshouldidesign",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "author": "MartinsOnuoha",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "open-graph-scraper": "^6.3.2"
+  }
+}
