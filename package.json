@@ -11,6 +11,7 @@
   "author": "MartinsOnuoha",
   "license": "ISC",
   "dependencies": {
+    "@fastify/cors": "^8.4.1",
     "fastify": "^4.24.3",
     "open-graph-scraper": "^6.3.2"
   }

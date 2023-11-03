@@ -1,9 +1,13 @@
 import Fastify from 'fastify';
 import ogs from 'open-graph-scraper';
+import cors from '@fastify/cors'
+
 const ALLOWED_DOMAINS = ['figma.com', 'dribbble.com', 'behance.net', 'craftwork.design']
 
 const fastify = Fastify({ logger: false });
-
+await fastify.register(cors, {
+  origin: ['https://whatshouldidesign.space', 'http://localhost:5173', 'localhost:5173']
+})
 const errorResponse = (msg, reply) => {
   reply.statusCode = 400;
   return reply.send({ error: true, msg })
