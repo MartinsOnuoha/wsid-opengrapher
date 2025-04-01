@@ -34,9 +34,9 @@ fastify.get("/", async (request, reply) => {
     url = (!url.includes('http') && !url.includes('https')) ? `https://${url}` : url
     const hostName = getDomainName((new URL(url)).hostname)
 
-    if (!ALLOWED_DOMAINS.includes(hostName)) {
-      return errorResponse('link source not allowed', reply)
-    }
+    // if (!ALLOWED_DOMAINS.includes(hostName)) {
+    //   return errorResponse('link source not allowed', reply)
+    // }
 
 
     const { result, error } = await ogs({ url })
