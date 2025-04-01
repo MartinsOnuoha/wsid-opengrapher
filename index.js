@@ -2,7 +2,7 @@ import Fastify from 'fastify';
 import ogs from 'open-graph-scraper';
 import cors from '@fastify/cors'
 
-const ALLOWED_DOMAINS = ['figma.com', 'dribbble.com', 'behance.net', 'craftwork.design']
+const ALLOWED_DOMAINS = ['figma.com', 'dribbble.com', 'behance.net', 'craftwork.design', 'github.com']
 
 const fastify = Fastify({ logger: false });
 await fastify.register(cors, {
