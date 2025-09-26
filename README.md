@@ -1,6 +1,5 @@
 # Wsid-Opengrapher
 
-[![License](https://img.shields.io/github/license/MartinsOnuoha/wsid-opengrapher.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/MartinsOnuoha/wsid-opengrapher.svg)](https://github.com/MartinsOnuoha/wsid-opengrapher/issues)
 
 ## Overview
