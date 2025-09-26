@@ -41,7 +41,7 @@ npm install
 A basic example of how to use wsid-opengrapher deployed on render (slow):
 
 ```javascript
-https://wsid-opengrapher.onrender.com/?url={YOUR_URL}
+https://wsid-opengrapher.onrender.com?url={YOUR_URL}
 ```
 You can self-host the API alternatively.
 
